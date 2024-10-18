@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">EjemploLinearLayout3</string>
+    <string name="texto_1">Texto 1</string>
+    <string name="texto_2">Texto 2</string>
+    <string name="texto_1b">Texto 1</string>
+    <string name="texto_2b">Texto 2</string>
+    <string name="texto_3b">Texto 3</string>
+</resources>

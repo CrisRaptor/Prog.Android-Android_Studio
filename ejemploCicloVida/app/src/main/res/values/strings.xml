@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ejemploCicloVida</string>
+    <string name="cadena">
+        Orden de ejecución de los métodos:\n\n
+        1. Al crear la aplicacion, se lanzan los métodos:
+        onCreate, onStart y onResume.\n\n
+
+        2. Si haces clic en el boton "Volver atrás", se lanzan los métodos:
+        onPause, onStop y onDestroy.\n\n
+
+        3. Cuando la aplicacion finaliza se lanzan los métodos:
+        onPause, onStop y onDestroy.\n\n
+
+        4. Al hacer clic en Home se lanzan los métodos:
+        onPause y onStop.\n\n
+
+        5. Si volvemos a ejecutar una aplicación destruida o en espera se lanzan los métodos:
+        onRestart, onStart, onResume.\n\n
+    </string>
+</resources>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lbl1"
+        android:text="Texto plano, tamaño por defecto"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lbl2"
+        android:textSize="30pt"
+        android:text="Texto plano, tamaño 30pt"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lbl3"
+        android:typeface="monospace"
+        android:text="Fuente monospace"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lbl4"
+        android:textSize="20pt"
+        android:textStyle="bold"
+        android:text="Negrita, tamaño 20"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lbl5"
+        android:textSize="20pt"
+        android:textStyle="italic"
+        android:text="Cursiva, tamaño 20"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lbl6"
+        android:textSize="20pt"
+        android:textStyle="italic|bold"
+        android:text="Negrita, cursiva, tamaño 20"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lbl7"/>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:background="#ffffff"/>
+    <TextView
+        android:id="@+id/lblBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button"/>
+
+        <ToggleButton
+            android:id="@+id/toggleBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOn="Pressed"
+            android:textOff="Unpressed"/>
+
+        <ImageButton
+            android:id="@+id/imgBtn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/stop"/>
+        <ImageButton
+            android:id="@+id/imgBtn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/pulsa"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
