@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">T3Ejercicios</string>
+    <string-array name="values">
+        <item>
+            Platano
+        </item>
+        <item>
+            Pera
+        </item>
+        <item>
+            Manzana
+        </item>
+        <item>
+            Naranja
+        </item>
+        <item>
+            Limon
+        </item>
+    </string-array>
 </resources>
