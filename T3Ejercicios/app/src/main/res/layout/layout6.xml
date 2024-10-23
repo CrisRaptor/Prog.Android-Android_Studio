@@ -1,48 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<GridLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:rowCount="4"
-    android:columnCount="4"
-    android:layout_gravity="center">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/padre">
+    
+    <RelativeLayout
+        android:id="@+id/hijo1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="#ff0000"/>
+    <RelativeLayout
+        android:id="@+id/hijo2"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_toLeftOf="@id/hijo1"
+        android:layout_alignParentTop="true"
+        android:background="#0000ff"/>
+    <RelativeLayout
+        android:id="@+id/hijo3"
+        android:layout_width="420dp"
+        android:layout_height="320dp"
+        android:layout_below="@id/hijo2"
+        android:background="#00ff00"/>
+    <RelativeLayout
+        android:id="@+id/hijo4"
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:layout_below="@id/hijo3"
+        android:background="#ff00fe"/>
+    <RelativeLayout
+        android:id="@+id/hijo5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/hijo4"
+        android:layout_alignTop="@+id/hijo4"
+        android:background="#ffff01"/>
 
-    <Button
-        android:background="#6750a4"
-        android:layout_margin="1dp"/>
-    <Button
-        android:layout_columnSpan="2"
-        android:layout_columnWeight="2"
-        android:background="#6750a4"
-        android:layout_margin="1dp"/>
-    <Button
-        android:background="#6750a4"
-        android:layout_margin="1dp"/>
-    <Button
-        android:layout_rowSpan="3"
-        android:layout_rowWeight="3"
-        android:background="#6750a4"
-        android:layout_margin="1dp"/>
-    <Button
-        android:background="#6750a4"
-        android:layout_margin="1dp"/>
-    <Button
-        android:background="#6750a4"
-        android:layout_margin="1dp"/>
-    <Button
-        android:layout_rowSpan="3"
-        android:layout_rowWeight="3"
-        android:background="#6750a4"
-        android:layout_margin="1dp"/>
-    <Button
-        android:background="#6750a4"
-        android:layout_margin="1dp"/>
-    <Button
-        android:background="#6750a4"
-        android:layout_margin="1dp"/>
-    <Button
-        android:layout_columnSpan="2"
-        android:layout_columnWeight="2"
-        android:background="#6750a4"
-        android:layout_margin="1dp"/>
-</GridLayout>
+
+</RelativeLayout>

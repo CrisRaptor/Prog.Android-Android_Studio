@@ -1,43 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<GridLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:id="@+id/padre">
-    
-    <RelativeLayout
-        android:id="@+id/hijo1"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentTop="true"
-        android:background="#ff0000"/>
-    <RelativeLayout
-        android:id="@+id/hijo2"
-        android:layout_width="200dp"
-        android:layout_height="100dp"
-        android:layout_toLeftOf="@id/hijo1"
-        android:layout_alignParentTop="true"
-        android:background="#0000ff"/>
-    <RelativeLayout
-        android:id="@+id/hijo3"
-        android:layout_width="420dp"
-        android:layout_height="320dp"
-        android:layout_below="@id/hijo2"
-        android:background="#00ff00"/>
-    <RelativeLayout
-        android:id="@+id/hijo4"
-        android:layout_width="150dp"
-        android:layout_height="match_parent"
-        android:layout_below="@id/hijo3"
-        android:background="#ff00fe"/>
-    <RelativeLayout
-        android:id="@+id/hijo5"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:rowCount="2"
+    android:columnCount="3">
+
+    <EditText
+        android:id="@+id/editText1"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_toRightOf="@id/hijo4"
-        android:layout_alignTop="@+id/hijo4"
-        android:background="#ffff01"/>
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:hint="Action Send"
+        android:imeOptions="actionSend"
+        android:inputType="text"/>
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:hint="Action Go"
+        android:imeOptions="actionGo"
+        android:inputType="text"/>
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:hint="Action Search"
+        android:imeOptions="actionSearch"
+        android:inputType="text"/>
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:hint="Action Done"
+        android:imeOptions="actionDone"
+        android:inputType="text"/>
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:hint="Action Previous"
+        android:imeOptions="actionPrevious"
+        android:inputType="text"/>
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:hint="Action Next"
+        android:imeOptions="actionNext"
+        android:inputType="text"/>
 
 
-</RelativeLayout>
+</GridLayout>
