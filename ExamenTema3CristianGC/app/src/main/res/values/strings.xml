@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">ExamenTema3</string>
+    <!--Strings del layout activity_main -->
+    <string name="userEditTextHint">Usuario</string>
+    <string name="passwdEditTextHint">Contraseña</string>
+    <string name="buttonAccessText">ACCEDER</string>
+
+    <!--Strings del layout activity2 -->
+    <string name="welcomeHeadText">TE DAMOS LA BIENVENIDA</string>
+    <string name="helpText">¿COMO PODEMOS AYUDARTE?</string>
+    <string name="buttonLoseWeightText">PERDER PESO</string>
+    <string name="buttonGetStrongerText">VOLVERME MÁS FUERTE</string>
+    <string name="buttonGetFitText">MANTENERME EN FORMA</string>
+    <string name="buttonNextText">SIGUIENTE</string>
+
+    <!--Strings del layout activity3 -->
+    <string name="ly3_headText2">ESTABLECE TU OBJETIVO SEMANAL</string>
+    <string name="ly3_headText1">¿EN QUE PARTE TE QUIERES CENTRAR?</string>
+    <string name="checkBoxOption1">Barriga</string>
+    <string name="checkBoxOption2">Brazo</string>
+    <string name="checkBoxOption3">Muslos</string>
+    <string name="checkBoxOption4">Glúteos</string>
+    <string name="spinnerTextInitial">1 día</string>
+
+    <string-array name="dias">
+        <item>1 día</item>
+        <item>2 días</item>
+        <item>3 días</item>
+        <item>4 días</item>
+        <item>5 días</item>
+        <item>6 días</item>
+        <item>7 días</item>
+    </string-array>
+
+</resources>
