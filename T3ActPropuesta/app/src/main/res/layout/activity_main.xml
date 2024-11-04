@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    android:background="#ADC8DC">
+    android:background="@color/blue_bg">
 
     <TextView
         android:layout_width="match_parent"
@@ -25,5 +25,5 @@
         android:layout_height="wrap_content"
         android:text="COMENCEMOS 👉"
         android:textSize="30dp"
-        android:backgroundTint="#22a045"/>
+        android:backgroundTint="@color/green_android"/>
 </LinearLayout>
