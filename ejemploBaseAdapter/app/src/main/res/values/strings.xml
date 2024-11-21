@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ejemploBaseAdapter</string>
+    <string name="ejemplo_cabecera">Ejemplo cabecera</string>
+</resources>
