@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         //Recuperar el listado
         final ListView list = findViewById(R.id.list);
 
-        //Incorporar cabezera (opcional)z
+        //Incorporar cabezera (opcional)
         View cabecera = getLayoutInflater().inflate(R.layout.cabecera,null);
         list.addHeaderView(cabecera);
 
