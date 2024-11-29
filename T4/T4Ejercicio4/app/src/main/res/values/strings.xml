@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">T4Ejercicio4</string>
+    <string name="frase">¿TRUCO O TRATO?</string>
+    <string name="fantasmas">Fantasmas</string>
+    <string name="calabazas">Calabazas</string>
+    <string name="preparate">Prepárate...</string>
+    <string-array name="data">
+        <item>Truco</item>
+        <item>Trato</item>
+    </string-array>
+</resources>
