@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    android:background="#ADC8DC">
+    android:background="@color/blue_bg">
 
     <TextView
         android:layout_width="match_parent"
@@ -13,7 +13,7 @@
         android:text="Bienvenido a la aplicación"
         android:gravity="center"
         android:textStyle="bold"
-        android:textSize="30dp"/>
+        android:textSize="30sp"/>
 
     <ImageView
         android:layout_width="match_parent"
@@ -21,9 +21,10 @@
         android:src="@drawable/bot"/>
 
     <Button
+        android:id="@+id/btnComenzar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="COMENCEMOS 👉"
-        android:textSize="30dp"
-        android:backgroundTint="#22a045"/>
+        android:textSize="30sp"
+        android:backgroundTint="@color/green_android"/>
 </LinearLayout>

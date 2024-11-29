@@ -2,4 +2,6 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="blue_bg">#ADC8DC</color>
+    <color name="green_android">#22a045</color>
 </resources>

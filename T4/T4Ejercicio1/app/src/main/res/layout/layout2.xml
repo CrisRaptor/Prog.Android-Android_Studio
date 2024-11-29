@@ -82,4 +82,14 @@
         android:layout_height="wrap_content"
         android:textColor="@color/white"
         android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/btnValorar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:text="VALORAR 👉⭐"
+        android:textSize="20sp"
+        android:backgroundTint="@color/green_android"
+        android:layout_gravity="bottom|right"/>
 </LinearLayout>
