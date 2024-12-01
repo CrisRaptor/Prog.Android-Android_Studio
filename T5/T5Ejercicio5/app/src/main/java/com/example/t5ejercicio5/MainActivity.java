@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
                 String selected1 = ((Data)adapterView.getItemAtPosition(position)).getNombre();
-                String selected2 = ((Data)adapterView.getItemAtPosition(position)).getNombre();
+                String selected2 = ((Data)adapterView.getItemAtPosition(position)).getNumero();
                 Toast.makeText(MainActivity.this, "Nombre de contacto: "+selected1, Toast.LENGTH_SHORT).show();
                 Toast.makeText(MainActivity.this, "Numero de telefono: "+selected2, Toast.LENGTH_SHORT).show();
 
