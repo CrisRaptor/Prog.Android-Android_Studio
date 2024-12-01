@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="listSeries">
+        <item>Stranger Things</item>
+        <item>Cobra Kai</item>
+        <item>The Office</item>
+        <item>House</item>
+        <item>Arcane</item>
+        <item>Los Bridgerton</item>
+        <item>Lucifer</item>
+        <item>The Umbrella Academy</item>
+        <item>La casa de papel</item>
+        <item>Breaking Bad</item>
+    </string-array>
+</resources>
