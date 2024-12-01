@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
         View cabecera = getLayoutInflater().inflate(R.layout.cabecera,null);
         list.addHeaderView(cabecera);
 
-        //Crear adaptador perosnalizado
+        //Crear adaptador personalizado
         Adapt myAdapter = new Adapt(data,this);
         list.setAdapter(myAdapter);
 
