@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/MnOp1" android:title="Peliculas">
+        <menu>
+            <item android:id="@+id/MnOp1_1" android:title="Studio Ghibli"/>
+            <item android:id="@+id/MnOp1_2" android:title="Clamp"/>
+        </menu>
+    </item>
+	<item android:id="@+id/MnOp2" android:title="Series"/>
+	<item android:id="@+id/MnOp3" android:title="Manga">
+        <menu>
+            <item android:id="@+id/MnOp3_1" android:title="Shonen"/>
+            <item android:id="@+id/MnOp3_2" android:title="Shojo"/>
+        </menu>
+    </item>
+</menu>
