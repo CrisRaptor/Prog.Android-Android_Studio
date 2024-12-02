@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onSaveInstanceState(@NonNull Bundle estado) {
         super.onSaveInstanceState(estado);
 
-        //Añadimos una variable que se almacena con e estado
+        //Añadimos una variable que se almacena con el estado
         estado.putString("VARIABLE_ALMACENADA","Texto guardado");
         Toast.makeText(this, "Estado de la actividad se ha guardado", Toast.LENGTH_SHORT).show();
     }
