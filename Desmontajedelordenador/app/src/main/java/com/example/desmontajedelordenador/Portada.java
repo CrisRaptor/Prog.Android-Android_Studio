@@ -6,15 +6,15 @@ import android.os.Handler;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class Start extends AppCompatActivity {
+public class Portada extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.loading);
+        setContentView(R.layout.portada);
 
         Handler handler = new Handler();
-        Intent intent = new Intent(Start.this, Sesion.class);
+        Intent intent = new Intent(Portada.this, Sesion.class);
 
         //Buscar si existe un usuario (Proximamente)
 
