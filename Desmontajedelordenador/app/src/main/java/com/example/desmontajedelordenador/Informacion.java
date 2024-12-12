@@ -37,9 +37,6 @@ public class Informacion extends AppCompatActivity {
     }
 
     private void asignarContenido(){
-        TextView titulo = findViewById(R.id.titulo);
-        TextView introduccion = findViewById(R.id.introduccion);
-        ImageView imagen = findViewById(R.id.imagen);
         TextView descripcion = findViewById(R.id.descripcion);
         registerForContextMenu(descripcion);
 
@@ -127,11 +124,6 @@ public class Informacion extends AppCompatActivity {
 
     @Override
     public boolean onContextItemSelected(@NonNull MenuItem item) {
-        TextView titulo = findViewById(R.id.titulo);
-        TextView introduccion = findViewById(R.id.introduccion);
-        ImageView imagen = findViewById(R.id.imagen);
-        TextView descripcion = findViewById(R.id.descripcion);
-
         Intent intent = new Intent(Intent.ACTION_VIEW);
         String url;
         switch (elemento){
@@ -139,31 +131,28 @@ public class Informacion extends AppCompatActivity {
                 url = "https://www.infootec.net/tipos-carcasas-cajas-ordenador/";
                 break;
             case "Placa Base":
-                url = "";
+                url = "https://www.info-computer.com/blog/que-tipos-de-placa-base-existen.html";
                 break;
             case "Procesador":
-                url = "";
+                url = "https://aodatacloud.es/blog/cpu-caracteristicas-tipos-funcionamiento/";
                 break;
             case "Memoria RAM":
-                url = "";
+                url = "https://www.crucial.es/articles/about-memory/different-types-of-memory-explained";
                 break;
             case "Almacenamiento":
-                url = "";
+                url = "https://ecoportatil.es/blog/tipos-disco-duro";
                 break;
             case "Refrigeración":
-                url = "";
+                url = "https://codegeek.es/2018/04/30/tipos-de-refrigeracion-para-pc/";
                 break;
             case "Tarjeta Gráfica":
-                url = "";
+                url = "https://blog.dynos.es/tipos-de-tarjeta-grafica/";
                 break;
             case "Fuente de Alimentación":
-                url = "";
-                break;
-            case "Autor":
-                url = "";
+                url = "https://www.coolmod.com/blog/categorias/componentes/tipos-de-fuente-de-alimentacion-para-pc/";
                 break;
             case "App":
-                url = "";
+                url = "https://github.com/CrisRaptor/Prog.Android-Android_Studio/tree/main/Desmontajedelordenador";
                 break;
             default:
                 url = "https://github.com/CrisRaptor";

@@ -1,7 +1,7 @@
 <resources>
     <!-- Strings utilizados en layouts-->
     <string name="app_name">Desmontaje del ordenador</string>
-<!--    <string name="archivo">userId.txt</string>-->
+    <!--    <string name="archivo">userId.txt</string>-->
     <string name="iniciar_sesion">Iniciar sesión</string>
     <string name="usuario">Usuario</string>
     <string name="valora">Valora la aplicación</string>
@@ -38,120 +38,126 @@
         <item>Carcasa</item>
         <item>La carcasa de un ordenador de sobremesa, también conocida como caja o torre, es el componente que alberga y protege todos los elementos internos del equipo.</item>
         <item>carcasa</item>
-        <item>Las principales funciones de la carcasa son:
-            \n● Protección
-            \n● Ventilación
-            \n● Estética
-            \n● Conectividad
-            \nLas carcasas poseen una gran variedad de tamaños, para saber más mantenga presionado este texto
+        <item>
+            Las principales funciones de la carcasa son:
+            \n● Proteger los componentes del ordenador.
+            \n● Mantener una ventilación adecuada de las piezas.
+            \n● Tener una estética, la cuál puede variar.
+            \n● Ofrecer conectividad entre los componentes y el usuario.
+            \nLas carcasas poseen una gran variedad de tamaños, para saber más mantenga presionado este texto.
         </item>
     </string-array>
     <string-array name="placa_contenido">
         <item>Placa Base</item>
-        <item>Placa Base de un ordenador de sobremesa, también conocida como caja o torre, es el componente que alberga y protege todos los elementos internos del equipo.</item>
+        <item>La placa base, también conocida como motherboard, es el componente principal de un ordenador donde se conectan y comunican todos los demás elementos del sistema.</item>
         <item>placa</item>
-        <item>Las principales funciones de la carcasa son:
-            \n● Protección
-            \n● Ventilación
-            \n● Estética
-            \n● Conectividad
-            \nLas carcasas poseen una gran variedad de tamaños, para saber más mantenga presionado este texto
+        <item>
+            Las principales funciones de la placa base son:
+            \n● Actuar como plataforma de conexión entre la CPU, la memoria RAM, el almacenamiento y otros componentes.
+            \n● Distribuir energía eléctrica de manera controlada a cada pieza.
+            \n● Permitir la comunicación entre componentes internos y externos mediante puertos y ranuras.
+            \n● Establecer compatibilidades entre hardware, como el tipo de procesador y memoria.
+            \nLa placa base varía en tamaño y características según las necesidades del usuario. Para más información, mantenga presionado este texto.
         </item>
     </string-array>
     <string-array name="cpu_contenido">
         <item>Procesador</item>
-        <item>CPU de un ordenador de sobremesa, también conocida como caja o torre, es el componente que alberga y protege todos los elementos internos del equipo.</item>
+        <item>El procesador, o CPU (Unidad Central de Proceso), es el cerebro del ordenador encargado de realizar las operaciones y cálculos necesarios para ejecutar programas y tareas.</item>
         <item>cpu</item>
-        <item>Las principales funciones de la carcasa son:
-            \n● Protección
-            \n● Ventilación
-            \n● Estética
-            \n● Conectividad
-            \nLas carcasas poseen una gran variedad de tamaños, para saber más mantenga presionado este texto
+        <item>
+            Las principales funciones del procesador son:
+            \n● Interpretar y ejecutar las instrucciones de los programas.
+            \n● Coordinar el funcionamiento de otros componentes del sistema.
+            \n● Procesar datos a alta velocidad, utilizando núcleos y threads.
+            \n● Influir directamente en el rendimiento del equipo, especialmente en tareas intensivas como videojuegos o edición.
+            \nLos procesadores varían en rendimiento y capacidades según su generación, velocidad y cantidad de núcleos. Para más información, mantenga presionado este texto.
         </item>
     </string-array>
     <string-array name="ram_contenido">
         <item>Memoria RAM</item>
-        <item>Memoria RAM de un ordenador de sobremesa, también conocida como caja o torre, es el componente que alberga y protege todos los elementos internos del equipo.</item>
+        <item>La memoria RAM (Memoria de Acceso Aleatorio) es un componente clave que almacena temporalmente los datos y programas que el procesador utiliza mientras el ordenador está en funcionamiento.</item>
         <item>ram</item>
-        <item>Las principales funciones de la carcasa son:
-            \n● Protección
-            \n● Ventilación
-            \n● Estética
-            \n● Conectividad
-            \nLas carcasas poseen una gran variedad de tamaños, para saber más mantenga presionado este texto
+        <item>
+            Las principales funciones de la memoria RAM son:
+            \n● Almacenar datos temporalmente para su acceso rápido por la CPU.
+            \n● Mejorar el rendimiento del ordenador en multitarea y programas exigentes.
+            \n● Facilitar el inicio rápido de aplicaciones y la respuesta ágil del sistema.
+            \n● Liberar los datos almacenados al apagar el ordenador, ya que no es persistente.
+            \nLa cantidad y velocidad de la RAM influyen directamente en la capacidad del ordenador para manejar tareas complejas. Para más información, mantenga presionado este texto.
         </item>
     </string-array>
     <string-array name="disco_contenido">
         <item>Almacenamiento</item>
-        <item>Almacenamiento de un ordenador de sobremesa, también conocida como caja o torre, es el componente que alberga y protege todos los elementos internos del equipo.</item>
+        <item>El almacenamiento del ordenador es el componente encargado de guardar de forma permanente los datos, archivos y programas que se utilizan en el sistema.</item>
         <item>disco</item>
-        <item>Las principales funciones de la carcasa son:
-            \n● Protección
-            \n● Ventilación
-            \n● Estética
-            \n● Conectividad
-            \nLas carcasas poseen una gran variedad de tamaños, para saber más mantenga presionado este texto
+        <item>
+            Las principales funciones del almacenamiento son:
+            \n● Conservar datos incluso cuando el ordenador está apagado.
+            \n● Permitir el acceso a programas, documentos, imágenes y más.
+            \n● Influir en la velocidad de carga de sistemas y aplicaciones según su tecnología.
+            \n● Servir como espacio para copias de seguridad y recuperación de información.
+            \nLa capacidad y velocidad del almacenamiento varían según las necesidades del usuario. Para más información, mantenga presionado este texto.
         </item>
     </string-array>
     <string-array name="ventilacion_contenido">
         <item>Refrigeración</item>
-        <item>La Refrigeraciónde un ordenador de sobremesa, también conocida como caja o torre, es el componente que alberga y protege todos los elementos internos del equipo.</item>
+        <item>El sistema de refrigeración es el encargado de mantener una temperatura estable en los componentes del ordenador, evitando sobrecalentamientos que puedan afectar su rendimiento o dañarlos.</item>
         <item>ventilador</item>
-        <item>Las principales funciones de la carcasa son:
-            \n● Protección
-            \n● Ventilación
-            \n● Estética
-            \n● Conectividad
-            \nLas carcasas poseen una gran variedad de tamaños, para saber más mantenga presionado este texto
+        <item>
+            Las principales funciones de la refrigeración son:
+            \n● Disipar el calor generado por la CPU, GPU y otros componentes.
+            \n● Mantener un rendimiento óptimo del sistema bajo cargas de trabajo intensas.
+            \n● Prolongar la vida útil de los componentes al evitar temperaturas extremas.
+            \n● Reducir el ruido del sistema, dependiendo del tipo de refrigeración utilizada.
+            \nLa refrigeración puede ser activa o pasiva, dependiendo de las necesidades del equipo. Para más información, mantenga presionado este texto.
         </item>
     </string-array>
     <string-array name="grafica_contenido">
         <item>Tarjeta Gráfica</item>
-        <item>La Tarjeta Gráfica de un ordenador de sobremesa, también conocida como caja o torre, es el componente que alberga y protege todos los elementos internos del equipo.</item>
+        <item>La tarjeta gráfica, o GPU (Unidad de Procesamiento Gráfico), es el componente especializado en generar imágenes y videos, crucial para aplicaciones visuales y tareas de alto rendimiento.</item>
         <item>grafica</item>
-        <item>Las principales funciones de la carcasa son:
-            \n● Protección
-            \n● Ventilación
-            \n● Estética
-            \n● Conectividad
-            \nLas carcasas poseen una gran variedad de tamaños, para saber más mantenga presionado este texto
+        <item>
+            Las principales funciones de la tarjeta gráfica son:
+            \n● Procesar datos gráficos para mostrar imágenes fluidas y detalladas.
+            \n● Mejorar la experiencia en videojuegos, diseño gráfico y edición de video.
+            \n● Descomprimir y renderizar contenido multimedia a gran velocidad.
+            \n● Aliviar la carga de trabajo del procesador al encargarse de los cálculos visuales.
+            \nLa tarjeta gráfica puede estar integrada en la CPU o ser dedicada, según el nivel de rendimiento requerido. Para más información, mantenga presionado este texto.
         </item>
     </string-array>
     <string-array name="alimentacion_contenido">
         <item>Fuente de Alimentación</item>
-        <item>La Fuente de Alimentación de un ordenador de sobremesa, también conocida como caja o torre, es el componente que alberga y protege todos los elementos internos del equipo.</item>
+        <item>La fuente de alimentación es el componente encargado de suministrar la energía eléctrica que necesitan todos los demás elementos del ordenador para funcionar correctamente.</item>
         <item>alimentacion</item>
-        <item>Las principales funciones de la carcasa son:
-            \n● Protección
-            \n● Ventilación
-            \n● Estética
-            \n● Conectividad
-            \nLas carcasas poseen una gran variedad de tamaños, para saber más mantenga presionado este texto
+        <item>
+            Las principales funciones de la fuente de alimentación son:
+            \n● Convertir la corriente eléctrica de la red en voltajes adecuados para cada componente.
+            \n● Proteger los componentes frente a variaciones o sobrecargas eléctricas.
+            \n● Asegurar un suministro estable y eficiente de energía.
+            \n● Adaptar su potencia a las necesidades del sistema, dependiendo del número y tipo de componentes conectados.
+            \nLa elección de una fuente adecuada es esencial para garantizar la estabilidad y durabilidad del ordenador. Para más información, mantenga presionado este texto.
         </item>
     </string-array>
     <string-array name="autor_contenido">
         <item>Sobre mí</item>
-        <item>La Fuente de Alimentación de un ordenador de sobremesa, también conocida como caja o torre, es el componente que alberga y protege todos los elementos internos del equipo.</item>
-        <item>alimentacion</item>
-        <item>Las principales funciones de la carcasa son:
-            \n● Protección
-            \n● Ventilación
-            \n● Estética
-            \n● Conectividad
-            \nLas carcasas poseen una gran variedad de tamaños, para saber más mantenga presionado este texto
+        <item>Mi nombre es Cristian, vivo en Málaga y me gusta la programación.</item>
+        <item>autor</item>
+        <item>
+            Algunos de mis pasatiempos son:
+            \n● Leer libros, principalmente sobre fantasía.
+            \n● Jugar a videojuegos, mis favoritos son los que tienen elementos estratégicos.
+            \n● Diseñar juegos de mesa, me centro sobre todo en juegos de carta y juegos por turnos.
+            \nComo estos pasatiempos indican lo que más me gusta es la Creatividad y la Resolución de problemas.
+            \nEstas cualidades me parecen muy útiles a la hora de programar y diseñar aplicaciones.
         </item>
     </string-array>
     <string-array name="app_contenido">
-        <item>Sobre mí</item>
-        <item>La Fuente de Alimentación de un ordenador de sobremesa, también conocida como caja o torre, es el componente que alberga y protege todos los elementos internos del equipo.</item>
-        <item>alimentacion</item>
-        <item>Las principales funciones de la carcasa son:
-            \n● Protección
-            \n● Ventilación
-            \n● Estética
-            \n● Conectividad
-            \nLas carcasas poseen una gran variedad de tamaños, para saber más mantenga presionado este texto
+        <item>Sobre esta App</item>
+        <item>Desmontaje del Ordenador surgió como un proyecto para una actividad del Grado Superior, pero su concepto lleva rondando mi cabeza desde que comencé a recibir clases de montaje en el Grado Medio.</item>
+        <item>logo_desmontaje</item>
+        <item>
+            Desmontaje del Ordenador es una aplicación con un objetivo didáctico, que permite tanto al desarrollador como al usuario conocer más sobre estas máquinas que cambiaron la vida contemporánea.
+            \nEn esta aplicación podrás aprender sobre los componentes que forman un ordenador convencional y su papel para que esta máquina pueda funcionar.
         </item>
     </string-array>
 </resources>

@@ -48,7 +48,6 @@ public class Sesion extends AppCompatActivity {
                 if (error.equals("")){
                     Toast.makeText(Sesion.this, "Sesión iniciada", Toast.LENGTH_SHORT).show();
                     Intent intent = new Intent(Sesion.this, Inicio.class);
-//                    intent.putExtra("Usuario",mensaje.getText());
                     startActivity(intent);
                 }
             }

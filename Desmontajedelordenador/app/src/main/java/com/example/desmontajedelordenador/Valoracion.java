@@ -1,8 +1,12 @@
 package com.example.desmontajedelordenador;
 
+import android.graphics.Color;
+import android.graphics.PorterDuff;
+import android.graphics.drawable.LayerDrawable;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.RatingBar;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -19,6 +23,7 @@ public class Valoracion extends AppCompatActivity {
         setSupportActionBar(tool);
 
         Button valorar = findViewById(R.id.btnValorar);
+
         valorar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

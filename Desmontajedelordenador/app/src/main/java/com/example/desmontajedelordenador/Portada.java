@@ -29,6 +29,6 @@ public class Portada extends AppCompatActivity {
             public void run() {
                 startActivity(intent);
             }
-        }, 2000);
+        }, 3000);
     }
 }
