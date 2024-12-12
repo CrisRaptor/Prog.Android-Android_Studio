@@ -3,4 +3,14 @@
     <string name="archivo">userId.txt</string>
     <string name="iniciar_sesion">Iniciar sesión</string>
     <string name="usuario">Usuario</string>
+    <string-array name="listaComponentes">
+        <item>carcasa,Carcasa</item>
+        <item>placa,Placa Base</item>
+        <item>cpu,Procesador</item>
+        <item>ram,Memoria RAM</item>
+        <item>disco,Almacenamineto</item>
+        <item>ventilador,Refrigeración</item>
+        <item>grafica,Tarjeta Gráfica</item>
+        <item>alimentacion,Fuente de Alimentación</item>
+    </string-array>
 </resources>

@@ -8,6 +8,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -17,6 +18,8 @@ public class Sesion extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.inicio_sesion);
+
+        //FUTURO el usuario se almacena en un fichero interno, si es el primer inicio activa un tutorial
 
         EditText usuario = findViewById(R.id.user);
         TextView mensaje = findViewById(R.id.mensaje);
@@ -36,15 +39,16 @@ public class Sesion extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 String error = "";
-                mensaje.setTextColor(getResources().getColor(R.color.error));
+                mensaje.setTextColor(getResources().getColor(R.color.error, null));
                 if (usuario.getText().length() < 7){
                     error += "El usuario debe tener 8 o más caracteres.";
                     mensaje.setText(error);
 
                 }
                 if (error.equals("")){
+                    Toast.makeText(Sesion.this, "Sesión iniciada", Toast.LENGTH_SHORT).show();
                     Intent intent = new Intent(Sesion.this, Inicio.class);
-                    intent.putExtra("Usuario",mensaje.getText());
+//                    intent.putExtra("Usuario",mensaje.getText());
                     startActivity(intent);
                 }
             }
