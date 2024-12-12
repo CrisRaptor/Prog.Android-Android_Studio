@@ -29,7 +29,7 @@ public class Sesion extends AppCompatActivity {
         info.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String guia = "Escribe un usuario en el campo central.";
+                String guia = "Escribe un usuario de 8 o más caracteres en el campo central.";
                 mensaje.setTextColor(getResources().getColor(R.color.advise));
                 mensaje.setText(guia);
             }
