@@ -1,16 +1,157 @@
 <resources>
+    <!-- Strings utilizados en layouts-->
     <string name="app_name">Desmontaje del ordenador</string>
-    <string name="archivo">userId.txt</string>
+<!--    <string name="archivo">userId.txt</string>-->
     <string name="iniciar_sesion">Iniciar sesión</string>
     <string name="usuario">Usuario</string>
+    <string name="valora">Valora la aplicación</string>
+    <string name="valorar">✨ VALORAR ✨</string>
+    <string name="contacta_conmigo">Contacta conmigo 📧</string>
+    <string name="buscando_perfil">Buscando perfil...</string>
+    <string name="titulo_portada">DESMONTAJE\nDEL\nORDENADOR</string>
+    <string name="funcionalidad">Funcionalidad </string>
+    <string name="diseno">Diseño</string>
+    <string name="utilidad">Utilidad</string>
+    <string name="experiencia">Experiencia</string>
+    <!-- Menu -->
+    <string name="sobre_la_aplicacion">Sobre la aplicacion 📱</string>
+    <string name="sobre_mi">Sobre mí 👨🏻‍💻</string>
+    <string name="mas_info">Más información</string>
+    <string name="descargar">Descargar proyecto ⬇️</string>
+    <string name="valorar_menu">Valorar ⭐</string>
+    <string name="visitar_la_web">Visitar la web 🔗</string>
+
+    <!-- Componentes cargados en pantalla principal-->
     <string-array name="listaComponentes">
         <item>carcasa,Carcasa</item>
         <item>placa,Placa Base</item>
         <item>cpu,Procesador</item>
         <item>ram,Memoria RAM</item>
-        <item>disco,Almacenamineto</item>
+        <item>disco,Almacenamiento</item>
         <item>ventilador,Refrigeración</item>
         <item>grafica,Tarjeta Gráfica</item>
         <item>alimentacion,Fuente de Alimentación</item>
+    </string-array>
+
+    <!-- Contenido de cada componente -->
+    <string-array name="carcasa_contenido">
+        <item>Carcasa</item>
+        <item>La carcasa de un ordenador de sobremesa, también conocida como caja o torre, es el componente que alberga y protege todos los elementos internos del equipo.</item>
+        <item>carcasa</item>
+        <item>Las principales funciones de la carcasa son:
+            \n● Protección
+            \n● Ventilación
+            \n● Estética
+            \n● Conectividad
+            \nLas carcasas poseen una gran variedad de tamaños, para saber más mantenga presionado este texto
+        </item>
+    </string-array>
+    <string-array name="placa_contenido">
+        <item>Placa Base</item>
+        <item>Placa Base de un ordenador de sobremesa, también conocida como caja o torre, es el componente que alberga y protege todos los elementos internos del equipo.</item>
+        <item>placa</item>
+        <item>Las principales funciones de la carcasa son:
+            \n● Protección
+            \n● Ventilación
+            \n● Estética
+            \n● Conectividad
+            \nLas carcasas poseen una gran variedad de tamaños, para saber más mantenga presionado este texto
+        </item>
+    </string-array>
+    <string-array name="cpu_contenido">
+        <item>Procesador</item>
+        <item>CPU de un ordenador de sobremesa, también conocida como caja o torre, es el componente que alberga y protege todos los elementos internos del equipo.</item>
+        <item>cpu</item>
+        <item>Las principales funciones de la carcasa son:
+            \n● Protección
+            \n● Ventilación
+            \n● Estética
+            \n● Conectividad
+            \nLas carcasas poseen una gran variedad de tamaños, para saber más mantenga presionado este texto
+        </item>
+    </string-array>
+    <string-array name="ram_contenido">
+        <item>Memoria RAM</item>
+        <item>Memoria RAM de un ordenador de sobremesa, también conocida como caja o torre, es el componente que alberga y protege todos los elementos internos del equipo.</item>
+        <item>ram</item>
+        <item>Las principales funciones de la carcasa son:
+            \n● Protección
+            \n● Ventilación
+            \n● Estética
+            \n● Conectividad
+            \nLas carcasas poseen una gran variedad de tamaños, para saber más mantenga presionado este texto
+        </item>
+    </string-array>
+    <string-array name="disco_contenido">
+        <item>Almacenamiento</item>
+        <item>Almacenamiento de un ordenador de sobremesa, también conocida como caja o torre, es el componente que alberga y protege todos los elementos internos del equipo.</item>
+        <item>disco</item>
+        <item>Las principales funciones de la carcasa son:
+            \n● Protección
+            \n● Ventilación
+            \n● Estética
+            \n● Conectividad
+            \nLas carcasas poseen una gran variedad de tamaños, para saber más mantenga presionado este texto
+        </item>
+    </string-array>
+    <string-array name="ventilacion_contenido">
+        <item>Refrigeración</item>
+        <item>La Refrigeraciónde un ordenador de sobremesa, también conocida como caja o torre, es el componente que alberga y protege todos los elementos internos del equipo.</item>
+        <item>ventilador</item>
+        <item>Las principales funciones de la carcasa son:
+            \n● Protección
+            \n● Ventilación
+            \n● Estética
+            \n● Conectividad
+            \nLas carcasas poseen una gran variedad de tamaños, para saber más mantenga presionado este texto
+        </item>
+    </string-array>
+    <string-array name="grafica_contenido">
+        <item>Tarjeta Gráfica</item>
+        <item>La Tarjeta Gráfica de un ordenador de sobremesa, también conocida como caja o torre, es el componente que alberga y protege todos los elementos internos del equipo.</item>
+        <item>grafica</item>
+        <item>Las principales funciones de la carcasa son:
+            \n● Protección
+            \n● Ventilación
+            \n● Estética
+            \n● Conectividad
+            \nLas carcasas poseen una gran variedad de tamaños, para saber más mantenga presionado este texto
+        </item>
+    </string-array>
+    <string-array name="alimentacion_contenido">
+        <item>Fuente de Alimentación</item>
+        <item>La Fuente de Alimentación de un ordenador de sobremesa, también conocida como caja o torre, es el componente que alberga y protege todos los elementos internos del equipo.</item>
+        <item>alimentacion</item>
+        <item>Las principales funciones de la carcasa son:
+            \n● Protección
+            \n● Ventilación
+            \n● Estética
+            \n● Conectividad
+            \nLas carcasas poseen una gran variedad de tamaños, para saber más mantenga presionado este texto
+        </item>
+    </string-array>
+    <string-array name="autor_contenido">
+        <item>Sobre mí</item>
+        <item>La Fuente de Alimentación de un ordenador de sobremesa, también conocida como caja o torre, es el componente que alberga y protege todos los elementos internos del equipo.</item>
+        <item>alimentacion</item>
+        <item>Las principales funciones de la carcasa son:
+            \n● Protección
+            \n● Ventilación
+            \n● Estética
+            \n● Conectividad
+            \nLas carcasas poseen una gran variedad de tamaños, para saber más mantenga presionado este texto
+        </item>
+    </string-array>
+    <string-array name="app_contenido">
+        <item>Sobre mí</item>
+        <item>La Fuente de Alimentación de un ordenador de sobremesa, también conocida como caja o torre, es el componente que alberga y protege todos los elementos internos del equipo.</item>
+        <item>alimentacion</item>
+        <item>Las principales funciones de la carcasa son:
+            \n● Protección
+            \n● Ventilación
+            \n● Estética
+            \n● Conectividad
+            \nLas carcasas poseen una gran variedad de tamaños, para saber más mantenga presionado este texto
+        </item>
     </string-array>
 </resources>

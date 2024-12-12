@@ -25,8 +25,11 @@
             android:exported="false"/>
         <activity android:name=".Inicio"
             android:exported="false"/>
-        <activity android:name=".Contenido"
+        <activity android:name=".Informacion"
             android:exported="false"/>
+        <activity android:name=".Valoracion"
+            android:exported="false"/>
+
     </application>
 
 </manifest>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/Valorar" android:title="@string/valorar_menu"/>
+    <item android:id="@+id/Descarga" android:title="@string/descargar"/>
+    <item android:id="@+id/Info" android:title="@string/mas_info">
+        <menu>
+            <item android:id="@+id/Info_Autor" android:title="@string/sobre_mi"/>
+            <item android:id="@+id/Info_App" android:title="@string/sobre_la_aplicacion"/>
+        </menu>
+    </item>
+</menu>

@@ -1,8 +1,11 @@
 package com.example.desmontajedelordenador;
 
 import android.content.Intent;
+import android.graphics.Color;
+import android.graphics.PorterDuff;
 import android.os.Bundle;
 import android.os.Handler;
+import android.widget.ProgressBar;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -15,6 +18,9 @@ public class Portada extends AppCompatActivity {
 
         Handler handler = new Handler();
         Intent intent = new Intent(Portada.this, Sesion.class);
+
+        final ProgressBar barra = findViewById(R.id.progress);
+        barra.getIndeterminateDrawable().setColorFilter(Color.BLUE, PorterDuff.Mode.SRC_IN);
 
         //Buscar si existe un usuario (Proximamente)
 

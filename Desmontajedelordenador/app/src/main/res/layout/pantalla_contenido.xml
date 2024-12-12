@@ -16,11 +16,64 @@
         android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
         app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
 
-    <GridView
-        android:id="@+id/grid"
+    <TextView
+        android:id="@+id/titulo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:fontFamily="monospace"
         android:gravity="center"
-        android:paddingTop="10dp"
-        android:numColumns="2"/>
+        android:paddingTop="15dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/introduccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:fontFamily="monospace"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center" />
+
+    <ImageView
+        android:id="@+id/imagen"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:scaleType="fitXY"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:id="@+id/descripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:fontFamily="monospace"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"/>
+    
+    <Button
+        android:id="@+id/btnContactar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/contacta_conmigo"
+        android:layout_marginTop="15dp"
+        android:visibility="gone"
+        android:layout_gravity="center"/>
 </LinearLayout>

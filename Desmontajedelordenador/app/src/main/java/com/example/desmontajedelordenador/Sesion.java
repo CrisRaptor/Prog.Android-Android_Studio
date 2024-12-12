@@ -39,8 +39,8 @@ public class Sesion extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 String error = "";
-                mensaje.setTextColor(getResources().getColor(R.color.error, null));
                 if (usuario.getText().length() < 7){
+                    mensaje.setTextColor(getResources().getColor(R.color.error, null));
                     error += "El usuario debe tener 8 o más caracteres.";
                     mensaje.setText(error);
 

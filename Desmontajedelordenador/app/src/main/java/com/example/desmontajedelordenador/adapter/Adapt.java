@@ -30,15 +30,10 @@ public class Adapt extends BaseAdapter {
     @Override
     public View getView(int position, View view, ViewGroup parent) {
         View element = LayoutInflater.from(context).inflate(R.layout.element, parent, false);
-        final ImageView imagen = element.findViewById(R.id.image);
+        final ImageView imagen = element.findViewById(R.id.imagen);
         imagen.setImageResource(data.get(position).getImagen());
-        final TextView nombre = element.findViewById(R.id.name);
+        final TextView nombre = element.findViewById(R.id.nombre);
         nombre.setText(data.get(position).getNombre());
-
-        // Ajustar el span en función de la posición
-        if (nombre.equals("info-1") || nombre.equals("info-8")) {
-            view.setVisibility(View.GONE);
-        } 
         return element;
     }
 
