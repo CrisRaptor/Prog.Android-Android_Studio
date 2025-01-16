@@ -31,5 +31,46 @@ public class MainActivity extends AppCompatActivity {
                 dialogoAlerta.show(FM,"tagAlerta");
             }
         });
+
+        final Button btnConfirmacion = findViewById(R.id.btnConfirmacion);
+        btnConfirmacion.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                DialogoConfirmacion dialogoConfirmacion = new DialogoConfirmacion();
+                dialogoConfirmacion.show(FM,"tagConfirmacion");
+            }
+        });
+        final Button btnSeleccion = findViewById(R.id.btnSeleccion);
+        btnSeleccion.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                DialogoSeleccion dialogoSeleccion = new DialogoSeleccion();
+                dialogoSeleccion.show(FM,"tagSeleccion");
+            }
+        });
+        final Button btnRadio = findViewById(R.id.btnRadio);
+        btnRadio.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                DialogoRadio dialogoRadio = new DialogoRadio();
+                dialogoRadio.show(FM,"tagSeleccionRadio");
+            }
+        });
+        final Button btnCheck = findViewById(R.id.btnCheck);
+        btnCheck.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                DialogoCheck dialogoCheck = new DialogoCheck();
+                dialogoCheck.show(FM,"tagSeleccionCheck");
+            }
+        });
+        final Button btnPerso = findViewById(R.id.btnPerso);
+        btnPerso.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                DialogoPerso dialogoPerso = new DialogoPerso();
+                dialogoPerso.show(FM,"tagPerso");
+            }
+        });
     }
 }

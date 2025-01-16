@@ -10,18 +10,17 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.DialogFragment;
 
-public class DialogoAlerta extends DialogFragment {
+public class DialogoCheck extends DialogFragment {
     @NonNull
     @Override
     public Dialog onCreateDialog(@Nullable Bundle savedInstanceState) {
-        AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
-        builder.setMessage("Esto es un mensaje de alerta")
-                .setTitle("Información")
-                .setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+        final String[] items = {"Español", "Inglés", "Francés", "Alemán"};
+        AlertDialog.Builder builder = new AlertDialog.Builder(getActivity())
+                .setTitle("Seleccion Radio")
+                .setMultiChoiceItems(items, null, new DialogInterface.OnMultiChoiceClickListener() {
                     @Override
-                    public void onClick(DialogInterface dialogInterface, int i) {
-                        Log.i("Dialogo","Aviso recibido");
-                        dialogInterface.cancel();
+                    public void onClick(DialogInterface dialogInterface, int i, boolean b) {
+                        Log.i("Dialogos", "Opcion marcada: "+items[i]);
                     }
                 });
         return builder.create();

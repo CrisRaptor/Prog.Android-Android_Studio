@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">EjemploDialogFragment</string>
+    <string name="dialogo">Diálogo</string>
+    <string name="navidad_2026">Navidad 2026</string>
+    <string name="navidad_empieza">Empieza la cuenta atrás</string>
+    <string name="dialogo_personalizado">Dialogo Personalizado</string>
+    <string name="dialogo_check">Dialogo Check</string>
+    <string name="dialogo_radio">Dialogo Radio</string>
+    <string name="dialogo_seleccion">Dialogo Seleccion</string>
+    <string name="dialogo_confirmacion">Dialogo Confirmacion</string>
+    <string name="dialogo_alerta">Dialogo Alerta</string>
 </resources>

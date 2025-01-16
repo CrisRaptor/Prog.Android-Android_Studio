@@ -10,6 +10,33 @@
         android:id="@+id/btnAlerta"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Dialogo Alerta"/>
+        android:text="@string/dialogo_alerta"/>
+
+    <Button
+        android:id="@+id/btnConfirmacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dialogo_confirmacion"/>
+
+    <Button
+        android:id="@+id/btnSeleccion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dialogo_seleccion"/>
+    <Button
+        android:id="@+id/btnRadio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dialogo_radio"/>
+    <Button
+        android:id="@+id/btnCheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dialogo_check"/>
+    <Button
+        android:id="@+id/btnPerso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dialogo_personalizado"/>
 
 </LinearLayout>
