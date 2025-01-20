@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Grabando parametros">
+        <ListPreference
+            android:key="resolucion"
+            android:title="Resolucion"
+            android:summary="Los videos con mayor resolucion se ven mas nitidos"
+            android:entries="@array/resolucion"
+            android:entryValues="@array/codigoresolucion"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Opciones de grabacion">
+        <SwitchPreference
+            android:key="Bloquear"
+            android:title="Bloquar la pantalla para finalizar"
+            android:summary="Finalizar la grabacion y guardar el video al bloquear la pantalla"/>
+    </PreferenceCategory>
+</PreferenceScreen>

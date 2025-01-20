@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="resolucion">
+        <item>2400*1080</item>
+        <item>1280*720</item>
+        <item>800*480</item>
+    </string-array>
+
+    <string-array name="codigoresolucion">
+        <item>H</item>
+        <item>M</item>
+        <item>L</item>
+    </string-array>
+</resources>
