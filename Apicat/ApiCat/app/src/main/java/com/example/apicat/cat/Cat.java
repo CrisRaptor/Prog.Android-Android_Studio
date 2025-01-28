@@ -35,7 +35,11 @@ public class Cat {
         return height;
     }
 
-    // Setter Methods 
+    public ArrayList<Breed> getBreeds() {
+        return breeds;
+    }
+
+    // Setter Methods
     public void setId(String id) {
         this.id = id;
     }
@@ -50,6 +54,10 @@ public class Cat {
 
     public void setHeight(float height) {
         this.height = height;
+    }
+
+    public void setBreeds(ArrayList<Breed> breeds) {
+        this.breeds = breeds;
     }
 
     @Override

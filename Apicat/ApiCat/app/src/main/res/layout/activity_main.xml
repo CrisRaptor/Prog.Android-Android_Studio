@@ -5,28 +5,31 @@
     android:layout_width="match_parent">
 
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:id="@+id/generador"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:layout_centerInParent="true">
+        android:background="#BACCE6"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="5dp">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textStyle="bold"
-            android:textSize="20sp"
+            android:textSize="30sp"
+            android:paddingBottom="10dp"
             android:text="Generador de gatos"/>
 
         <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="#BACCE6">
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
             <ImageView
                 android:id="@+id/catImage"
-                android:layout_width="300dp"
+                android:layout_width="match_parent"
                 android:layout_height="300dp"
                 android:padding="3dp"
-                android:scaleType="fitXY"/>
+                android:scaleType="fitCenter"/>
         </LinearLayout>
 
 
@@ -36,6 +39,50 @@
             android:layout_height="wrap_content"
             android:text="Nuevo gato"
             android:layout_gravity="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@id/generador"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:paddingBottom="10dp"
+            android:text="Datos"/>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ID: "
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/datoId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"/>
+            </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RAZAS: "
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+        <ListView
+            android:id="@+id/listBreed"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"/>
+
     </LinearLayout>
 
 </RelativeLayout>
