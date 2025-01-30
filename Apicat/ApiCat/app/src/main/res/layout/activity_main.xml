@@ -18,7 +18,7 @@
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:textSize="30sp"
-            android:paddingBottom="10dp"
+            android:padding="10dp"
             android:text="Generador de gatos"/>
 
         <LinearLayout
@@ -45,6 +45,7 @@
         android:layout_below="@id/generador"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:padding="5dp"
         android:orientation="vertical">
 
         <TextView
@@ -52,7 +53,6 @@
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:textSize="30sp"
-            android:paddingBottom="10dp"
             android:text="Datos"/>
 
 
@@ -72,12 +72,21 @@
                     android:textSize="16sp"/>
             </LinearLayout>
 
-        <TextView
+        <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="RAZAS: "
-            android:textSize="16sp"
-            android:textStyle="bold"/>
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RAZAS: "
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/datoRazas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"/>
+        </LinearLayout>
         <ListView
             android:id="@+id/listBreed"
             android:layout_height="wrap_content"

@@ -5,6 +5,7 @@
 package com.example.apicat.cat;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 /**
  *
@@ -13,6 +14,7 @@ import java.util.ArrayList;
 public class Cat {
 
     ArrayList<Breed> breeds = new ArrayList<Breed>();
+//    ArrayList<Categories> categories = new ArrayList<>();
     private String id;
     private String url;
     private float width;
@@ -39,6 +41,10 @@ public class Cat {
         return breeds;
     }
 
+//    public ArrayList<Categories> getCategories() {
+//        return categories;
+//    }
+
     // Setter Methods
     public void setId(String id) {
         this.id = id;
@@ -60,8 +66,19 @@ public class Cat {
         this.breeds = breeds;
     }
 
+//    public void setCategories(ArrayList<Categories> categories) {
+//        this.categories = categories;
+//    }
+
     @Override
     public String toString() {
-        return "Cat{" + "breeds=" + breeds.toString() + ", id=" + id + ", url=" + url + ", width=" + width + ", height=" + height + '}';
+        return "Cat{" +
+                "breeds=" + Arrays.toString(breeds.toArray())  +
+//                ", categories=" + Arrays.toString(categories.toArray()) +
+                ", id='" + id + '\'' +
+                ", url='" + url + '\'' +
+                ", width=" + width +
+                ", height=" + height +
+                '}';
     }
 }

@@ -45,4 +45,32 @@ public class Breed {
     private String wikipedia_url;
     private float hypoallergenic;
     private String reference_image_id;
+
+    public String getName() {
+        return name;
+    }
+
+    public String getVetstreet_url() {
+        return vetstreet_url;
+    }
+
+    public String getTemperament() {
+        return temperament;
+    }
+
+    public String getOrigin() {
+        return origin;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public String getLife_span() {
+        return life_span;
+    }
+
+    public Weight getWeightObject() {
+        return WeightObject;
+    }
 }
