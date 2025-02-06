@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">T5MenusEjercicio2</string>
+    <string name="dias_semana">DÍAS DE LA SEMANA</string>
+    <string name="lunes">Lunes</string>
+    <string name="martes">Martes</string>
+    <string name="miercoles">Miércoles</string>
+    <string name="jueves">Jueves</string>
+    <string name="viernes">Viernes</string>
+    <string name="sabado">Sábado</string>
+    <string name="domingo">Domingo</string>
+    <string name="meses_anyo">MESES DEL AÑO</string>
+    <string name="enero">Enero</string>
+    <string name="febrero">Febrero</string>
+    <string name="marzo">Marzo</string>
+    <string name="abril">Abril</string>
+    <string name="guia_pulsa_main">Pulsa una opción del menú</string>
+</resources>
