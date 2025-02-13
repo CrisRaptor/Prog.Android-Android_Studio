@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Sonido y Vibración">
+        <RingtonePreference
+            android:key="ringtone"
+            android:title="Tono Alarma"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Modo Silencio">
+        <SwitchPreference
+            android:key="silence"
+            android:title="Modo Silencio"
+            android:summary="Silenciar llamadas entrantes y notificaciones"/>
+
+        <SwitchPreference
+            android:key="silence_multimedia"
+            android:title="Silenciar Multimedia en el Modo Silencio"
+            android:summary="Juegos, vídeos, música y otras aplicaciones"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="No molestar">
+        <SwitchPreference
+            android:key="not_disturb"
+            android:title="No molestar"
+            android:summary="No habrá recordatorios de llamadas entrantes ni notificaciones"/>
+
+        <SwitchPreference
+            android:key="activation"
+            android:title="Programar hora de activación"/>
+
+        <EditTextPreference
+            android:dependency="activation"
+            android:key="activation_start"
+            android:title="Iniciar"
+            android:dialogTitle="Introduce hora inicio"/>
+
+        <EditTextPreference
+            android:dependency="activation"
+            android:key="activation_final"
+            android:title="Finalizar"
+            android:dialogTitle="introduce hora de finalización"/>
+
+        <ListPreference
+            android:dependency="activation"
+            android:key="activation_repeat"
+            android:title="Repetir"
+            android:dialogTitle="REPETIR"
+            android:entries="@array/repeat"
+            android:entryValues="@array/repeat_id"/>
+
+        <SwitchPreference
+            android:key="not_disturb_block"
+            android:title="Cuando el dispositivo esté bloqueado"/>
+
+        <ListPreference
+            android:key="notification_call"
+            android:title="Notificar acerca de las llamadas"
+            android:dialogTitle="REPETIR"
+            android:entries="@array/notification_call"
+            android:entryValues="@array/notification_call_id"/>
+
+        <SwitchPreference
+            android:key="notification_lost_call"
+            android:title="Notificar llamadas perdidas"
+            android:summary="Sonar o vibrar mientras recibes la segunda llamada del mismo contacto en 15 minutos"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Vibrar">
+
+        <SwitchPreference
+            android:key="call_vibration"
+            android:title="Vibrar en llamadas"/>
+
+        <SwitchPreference
+            android:key="silent_mode_vibration"
+            android:title="Vibrar en modo silencio"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Respuesta Táctil">
+
+        <SwitchPreference
+            android:key="tactile_response"
+            android:title="Respuesta táctil"
+            android:summary="Recibir respuesta táctil con gestos y controles del sistema"/>
+    </PreferenceCategory>
+
+    <PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:key="additional_settings"
+        android:title="Ajustes Adicionales">
+
+        <SwitchPreference
+            android:key="keypad_tones"
+            android:title="Tonos de teclado de marcado"/>
+
+        <SwitchPreference
+            android:key="touch_tones"
+            android:title="Sonido de toques"/>
+
+        <SwitchPreference
+            android:key="capture_play"
+            android:title="Reproducir solo al tomar capturas de pantalla"/>
+    </PreferenceScreen>
+</PreferenceScreen>

@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">T7Ejercicio3</string>
+    <string-array name="repeat">
+        <item>Lunes-Viernes</item>
+        <item>Sabado-Domingo</item>
+    </string-array>
+    <string-array name="repeat_id">
+        <item>L-V</item>
+        <item>S-D</item>
+    </string-array>
+
+    <string-array name="notification_call">
+        <item>Sí</item>
+        <item>No</item>
+    </string-array>
+    <string-array name="notification_call_id">
+        <item>Sí</item>
+        <item>No</item>
+    </string-array>
 </resources>
