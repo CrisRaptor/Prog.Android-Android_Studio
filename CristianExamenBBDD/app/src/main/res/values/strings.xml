@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">CristianExamenBBDD</string>
+    <string name="cancelar">CANCELAR</string>
+    <string-array name="uso_datos">
+        <item>Solo wifi</item>
+        <item>Ahorrar datos</item>
+        <item>Datos máximos</item>
+    </string-array>
+    <string-array name="uso_datos_id">
+        <item>solo</item>
+        <item>ahorro</item>
+        <item>maximo</item>
+    </string-array>
+
+</resources>
