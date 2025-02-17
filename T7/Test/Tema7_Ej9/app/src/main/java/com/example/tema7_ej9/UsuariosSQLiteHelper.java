@@ -12,7 +12,6 @@ public class UsuariosSQLiteHelper extends SQLiteOpenHelper {
 
     public UsuariosSQLiteHelper(Context context, String nombre, SQLiteDatabase.CursorFactory factory, int version) {
         super(context, nombre, factory, version);
-
     }
 
     @Override
