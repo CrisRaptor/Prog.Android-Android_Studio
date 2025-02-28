@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">T7PracticaEvaluacion</string>
+    <string name="find">Buscar contactos</string>
+    <string name="add">Añadir</string>
+    <string name="modify">Modificar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="avatar">Avatar</string>
+    <string name="phone">Teléfono</string>
+    <string name="name">Nombre</string>
 </resources>
