@@ -24,7 +24,6 @@ import androidx.appcompat.widget.Toolbar;
 
 import com.example.t7practicaevaluacion.ContactList.Contact;
 import com.example.t7practicaevaluacion.ContactList.ListAdapter;
-import com.example.t7practicaevaluacion.Database.ContactDB;
 import com.example.t7practicaevaluacion.Database.ContactProvider;
 import com.example.t7practicaevaluacion.Spinner.Avatar;
 import com.example.t7practicaevaluacion.Spinner.SpinnerAdapter;
