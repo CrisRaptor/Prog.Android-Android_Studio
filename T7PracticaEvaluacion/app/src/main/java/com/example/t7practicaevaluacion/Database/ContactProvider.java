@@ -32,9 +32,10 @@ public class ContactProvider  extends ContentProvider {
 
         private Contacts() {}
         public static final String
+                COL_ID = "clave",
+                COL_AVATAR = "avatar",
                 COL_NAME = "nombre",
-                COL_PHONE = "telefono",
-                COL_AVATAR = "avatar";
+                COL_PHONE = "telefono";
     }
 
     private ContactDB contactDB;
@@ -67,7 +68,7 @@ public class ContactProvider  extends ContentProvider {
     public Cursor query(@NonNull Uri uri, @Nullable String[] projection, @Nullable String selection, @Nullable String[] selectionArgs, @Nullable String sortOrder) {
         String where = selection;
         if (URI_MATCHER.match(uri) == CONTACT_ID){
-            where = "_id=" + uri.getLastPathSegment();
+            where = "clave=" + uri.getLastPathSegment();
         }
 
         SQLiteDatabase db = contactDB.getWritableDatabase();
@@ -89,7 +90,7 @@ public class ContactProvider  extends ContentProvider {
         int cont;
         String where = selection;
         if (URI_MATCHER.match(uri) == CONTACT_ID) {
-            where = "_id" + uri.getLastPathSegment();
+            where = "clave=" + uri.getLastPathSegment();
         }
 
         SQLiteDatabase db = contactDB.getWritableDatabase();
@@ -102,7 +103,7 @@ public class ContactProvider  extends ContentProvider {
         int cont;
         String where = selection;
         if (URI_MATCHER.match(uri) == CONTACT_ID){
-            where = "_id=" + uri.getLastPathSegment();
+            where = "clave=" + uri.getLastPathSegment();
         }
 
         SQLiteDatabase db = contactDB.getWritableDatabase();

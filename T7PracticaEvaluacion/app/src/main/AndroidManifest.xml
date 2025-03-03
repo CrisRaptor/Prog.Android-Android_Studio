@@ -21,6 +21,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <provider
+            android:name=".Database.ContactProvider"
+            android:authorities="com.example.t7practicaevaluacion"/>
     </application>
 
 </manifest>
