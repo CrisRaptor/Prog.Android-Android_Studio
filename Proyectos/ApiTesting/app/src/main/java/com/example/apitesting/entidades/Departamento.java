@@ -27,4 +27,13 @@ public class Departamento {
     public void setUbicacion(String ubicacion) {
         this.ubicacion = ubicacion;
     }
+
+    @Override
+    public String toString() {
+        return "Departamento{" +
+                "id=" + id +
+                ", nombre='" + nombre + '\'' +
+                ", ubicacion='" + ubicacion + '\'' +
+                '}';
+    }
 }

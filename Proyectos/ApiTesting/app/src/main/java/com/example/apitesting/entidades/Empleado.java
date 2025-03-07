@@ -36,4 +36,14 @@ public class Empleado {
     public void setDepno(Departamento depno) {
         this.depno = depno;
     }
+
+    @Override
+    public String toString() {
+        return "Empleado{" +
+                "id=" + id +
+                ", nombre='" + nombre + '\'' +
+                ", puesto='" + puesto + '\'' +
+                ", depno=" + depno +
+                '}';
+    }
 }

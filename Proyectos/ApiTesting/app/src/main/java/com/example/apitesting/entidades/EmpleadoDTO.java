@@ -51,4 +51,16 @@ public class EmpleadoDTO {
     public void setDepartamentoUbicacion(String departamentoUbicacion) {
         this.departamentoUbicacion = departamentoUbicacion;
     }
+
+    @Override
+    public String toString() {
+        return "EmpleadoDTO{" +
+                "empno=" + empno +
+                ", departamento=" + departamento +
+                ", nombre='" + nombre + '\'' +
+                ", puesto='" + puesto + '\'' +
+                ", departamentoNombre='" + departamentoNombre + '\'' +
+                ", departamentoUbicacion='" + departamentoUbicacion + '\'' +
+                '}';
+    }
 }
