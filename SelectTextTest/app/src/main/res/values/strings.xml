@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SelectTextTest</string>
+    <string name="texto">I guess there are two issues here. First, Gradle is obviously failing to connect to the internet, most likely because it’s not properly integrating proxy information. Second, I’m not sure WHY it’s trying to download the Gradle 2.4 distribution. It’s already in my wrapper dists, and it’s obviously in my PATH (although I’m sure that last part is irrelevant).</string>
+</resources>
