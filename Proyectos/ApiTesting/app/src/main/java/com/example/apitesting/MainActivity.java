@@ -116,7 +116,6 @@ public class MainActivity extends AppCompatActivity {
         StringBuilder result;
         Log.i("empleadoDtoRequest","empieza");
         try {
-
             InputStream in = new BufferedInputStream(urlConnection.getInputStream());
             BufferedReader reader = new BufferedReader(new InputStreamReader(in));
             result = new StringBuilder();
